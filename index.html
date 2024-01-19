@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/style.css">
     <title>Shoes Store</title>
 </head>
@@ -28,19 +29,25 @@
     <section>
         <div class="content">
             <div class="main-content">
-                <h1>Nike</h1>
-                <h2>Air Max Plus</h2>
-                <h4>MAKE THE GROUND SHAKE</h4>
-                <p>Buy your Nike Air shoes right now, as comfortable as running in the sand, as soft as sleeping in a bed made of feathers. Make your difference with the new OG's Latest Generation.</p>
+                <h1 data-aos="fade-right" data-aos-duration="2000">Nike</h1>
+                <h2 data-aos="fade-left" data-aos-duration="2000" data-aos-delay="200">Air Max Plus</h2>
+                <h4 data-aos="fade-right" data-aos-duration="2000" data-aos-delay="400">MAKE THE GROUND SHAKE</h4>
+                <p data-aos="flip-down" data-aos-duration="2000" data-aos-delay="600">Buy your Nike Air shoes right now, as comfortable as running in the sand, as soft as sleeping in a bed made of feathers. Make your difference with the new OG's Latest Generation.</p>
                 <div class="order">
-                    <h3>COP2.000</h3>
-                    <button>PRE-ORDER NOW!</button>
+                    <h3 data-aos="zoom-in-right" data-aos-duration="2000" data-aos-delay="800">COP2.000</h3>
+                    <button data-aos="zoom-in-left" data-aos-duration="2000" data-aos-delay="800">PRE-ORDER NOW!</button>
                 </div>
             </div>
             <div class="image">
-                <img src="images/shoes.png" alt="">
+                <img src="images/shoes.png" data-aos="zoom-in" data-aos-duration="2000">
             </div>
         </div>
     </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset:1
+      });
+    </script>
 </body>
 </html>

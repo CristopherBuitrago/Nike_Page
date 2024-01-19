@@ -118,7 +118,7 @@ section .content{
     max-width: 350px;
     width: 100%;
     margin-right: 100px;
-    transform: rotate(40deg);
+    transform: rotate(40deg) translateX(900px);
     filter: drop-shadow(-10px -10px 200px #f74f10);
 }
 @media(max-width:800px){
