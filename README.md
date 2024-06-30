@@ -65,7 +65,7 @@ Contributions are what make the open source community such an amazing place to l
 
 ## 🌐 Link of the page
 
-Visit the live project [here](https://criscamper.github.io/tienda-de-zapatos-github.io/).
+Visit the live project [here](https://cristopherbuitrago.github.io/Nike_Page/).
 
 ---
 
