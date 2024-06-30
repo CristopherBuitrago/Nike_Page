@@ -67,6 +67,8 @@ Contributions are what make the open source community such an amazing place to l
 
 Visit the live project [here](https://cristopherbuitrago.github.io/Nike_Page/).
 
+Visit the deploy page: https://the-shoes-page.netlify.app
+
 ---
 
 Enjoy exploring the Shoes Store! If you have any questions or suggestions, feel free to reach out.
